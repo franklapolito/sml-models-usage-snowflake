@@ -1,0 +1,6 @@
+unique_name: Connection - Snowflake Usage
+label: Connection - Snowflake Usage
+object_type: connection
+as_connection: Snowflake
+database: SNOWFLAKE
+schema: ACCOUNT_USAGE

@@ -1,6 +1,6 @@
-unique_name: SNF Usage History  Cube
+unique_name: Snowflake Usage Model
 object_type: model
-label: SNF Usage History  Cube
+label: Snowflake Usage Model
 dimensions:
   - Query
 include_default_drillthrough: true
