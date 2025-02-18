@@ -1,8 +1,8 @@
-unique_name: Date Dimension
+unique_name: Date
 object_type: dimension
-label: Date Dimension
+label: Date
 hierarchies:
-  - unique_name: Degenerate Dim Hierarchy
+  - unique_name: Date Hierarchy
     label: Date Hierarchy
     filter_empty: 'yes'
     folder: Dates
@@ -12,7 +12,7 @@ hierarchies:
       - unique_name: full_date
 level_attributes:
   - unique_name: full_date
-    label: Full Date
+    label: Date
     dataset: date
     key_columns:
       - USE_DATE
