@@ -4,6 +4,7 @@ label: Warehouse
 hierarchies:
   - unique_name: Warehouse Hierarchy
     label: Warehouse Hierarchy
+    folder: Resources
     levels:
       - unique_name: Warehouse Level
 level_attributes:

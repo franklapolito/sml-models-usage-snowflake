@@ -5,6 +5,7 @@ hierarchies:
   - unique_name: Degenerate Dim Hierarchy
     label: Date Hierarchy
     filter_empty: 'yes'
+    folder: Dates
     levels:
       - unique_name: year
       - unique_name: month

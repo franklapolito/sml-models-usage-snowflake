@@ -5,6 +5,7 @@ hierarchies:
   - unique_name: Query Hierarchy
     label: Query Hierarchy
     filter_empty: 'yes'
+    folder: Queries
     levels:
       - unique_name: Query Type
       - unique_name: Query ID
