@@ -9,9 +9,9 @@ hierarchies:
     levels:
       - unique_name: year
       - unique_name: month
-      - unique_name: full_date
+      - unique_name: date
 level_attributes:
-  - unique_name: full_date
+  - unique_name: date
     label: Date
     dataset: dates
     key_columns:
