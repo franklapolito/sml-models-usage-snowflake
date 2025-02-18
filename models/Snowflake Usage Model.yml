@@ -6,27 +6,27 @@ dimensions:
 include_default_drillthrough: true
 metrics:
   - unique_name: m_BYTES_SCANNED_avg
-    folder: Averages
+    folder: Measures - Averages
   - unique_name: m_BYTES_SCANNED_sum
-    folder: Totals
+    folder: Measures - Totals
   - unique_name: m_COMPILATION_TIME_avg
-    folder: Averages
+    folder: Measures - Averages
   - unique_name: m_CREDITS_USED_sum
-    folder: Totals
+    folder: Measures - Totals
   - unique_name: m_EXECUTION_TIME_avg
-    folder: Averages
+    folder: Measures - Averages
   - unique_name: m_EXECUTION_TIME_sum
-    folder: Totals
+    folder: Measures - Totals
   - unique_name: m_QUERY_ID_distinct
-    folder: Counts
+    folder: Measures - Counts
   - unique_name: m_ROWS_PRODUCED_avg
-    folder: Averages
+    folder: Measures - Averages
   - unique_name: m_ROWS_PRODUCED_sum
-    folder: Totals
+    folder: Measures - Totals
   - unique_name: m_TOTAL_ELAPSED_TIME_avg
-    folder: Averages
+    folder: Measures - Averages
   - unique_name: m_TOTAL_ELAPSED_TIME_sum
-    folder: Totals
+    folder: Measures - Totals
 relationships:
   - unique_name: QUERY_HISTORY_Date_Dimension
     from:
