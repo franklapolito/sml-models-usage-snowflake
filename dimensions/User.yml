@@ -1,0 +1,76 @@
+unique_name: User
+object_type: dimension
+label: User
+hierarchies:
+  - unique_name: User Hierarchy
+    label: User Hierarchy
+    folder: User Attributes
+    levels:
+      - unique_name: User Name
+        secondary_attributes:
+          - unique_name: First Name
+            label: First Name
+            contains_unique_names: false
+            dataset: USERS
+            folder: User Attributes
+            is_unique_key: false
+            key_columns:
+              - FIRST_NAME
+            name_column: FIRST_NAME
+            sort_column: FIRST_NAME
+          - unique_name: Last Name
+            label: Last Name
+            contains_unique_names: false
+            dataset: USERS
+            folder: User Attributes
+            is_unique_key: false
+            key_columns:
+              - LAST_NAME
+            name_column: LAST_NAME
+          - unique_name: Email
+            label: Email
+            contains_unique_names: false
+            dataset: USERS
+            folder: User Attributes
+            is_unique_key: false
+            key_columns:
+              - EMAIL
+            name_column: EMAIL
+          - unique_name: Login Name
+            label: Login Name
+            contains_unique_names: false
+            dataset: USERS
+            folder: User Attributes
+            is_unique_key: false
+            key_columns:
+              - LOGIN_NAME
+            name_column: LOGIN_NAME
+          - unique_name: Created on
+            label: Created on
+            contains_unique_names: false
+            dataset: USERS
+            folder: User Attributes
+            is_unique_key: false
+            key_columns:
+              - CREATED_ON
+            name_column: CREATED_ON
+          - unique_name: Last Success Login
+            label: Last Success Login
+            contains_unique_names: false
+            dataset: USERS
+            folder: User Attributes
+            is_unique_key: false
+            key_columns:
+              - LAST_SUCCESS_LOGIN
+            name_column: LAST_SUCCESS_LOGIN
+level_attributes:
+  - unique_name: User Name
+    label: User Name
+    contains_unique_names: false
+    dataset: USERS
+    is_unique_key: false
+    key_columns:
+      - NAME
+    name_column: NAME
+    sort_column: NAME
+type: standard

@@ -1,0 +1,19 @@
+unique_name: Warehouse
+object_type: dimension
+label: Warehouse
+hierarchies:
+  - unique_name: Warehouse Hierarchy
+    label: Warehouse Hierarchy
+    levels:
+      - unique_name: Warehouse Level
+level_attributes:
+  - unique_name: Warehouse Level
+    label: Warehouse Level
+    contains_unique_names: false
+    dataset: WAREHOUSE_EVENTS_HISTORY
+    is_unique_key: false
+    key_columns:
+      - WAREHOUSE_ID
+    name_column: WAREHOUSE_NAME
+    sort_column: WAREHOUSE_NAME
+type: standard

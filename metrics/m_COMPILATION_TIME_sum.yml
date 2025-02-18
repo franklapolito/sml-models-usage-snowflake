@@ -1,0 +1,7 @@
+unique_name: m_COMPILATION_TIME_sum
+object_type: metric
+label: Sum Compilation Time
+description: Compilation time (in milliseconds)
+calculation_method: sum
+column: COMPILATION_TIME
+dataset: QUERY_HISTORY
