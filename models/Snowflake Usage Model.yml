@@ -76,5 +76,5 @@ relationships:
       join_columns:
         - DATABASE_ID
     to:
-      dimension: Data
+      dimension: Data Organization
       level: Database

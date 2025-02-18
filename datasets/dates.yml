@@ -1,4 +1,4 @@
-unique_name: date
+unique_name: dates
 object_type: dataset
 label: date
 connection_id: Connection - Snowflake Usage
