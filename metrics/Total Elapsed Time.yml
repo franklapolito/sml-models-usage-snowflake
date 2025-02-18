@@ -1,7 +1,7 @@
-unique_name: m_TOTAL_ELAPSED_TIME_avg
+unique_name: Total Elapsed Time
 object_type: metric
-label: Avg Total Elapsed Time
+label: Sum Total Elapsed Time
 description: Elapsed time (in milliseconds).
-calculation_method: average
+calculation_method: sum
 column: TOTAL_ELAPSED_TIME
 dataset: query_history

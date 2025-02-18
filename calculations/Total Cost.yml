@@ -2,6 +2,6 @@ unique_name: Total Cost
 object_type: metric_calc
 label: Total Cost
 description: This is the cost based on number of credits time $2.00 per credit. Edit this formula if you want to use a different price per credit.
-expression: '[Measures].[m_CREDITS_USED_sum]*2.00'
+expression: '[Measures].[Total Credits Used]*2.00'
 format: "$#,##0.00"
 is_hidden: false

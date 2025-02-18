@@ -1,6 +1,6 @@
-unique_name: m_COMPILATION_TIME_sum
+unique_name: Total Compilation Time
 object_type: metric
-label: Sum Compilation Time
+label: Total Compilation Time
 description: Compilation time (in milliseconds)
 calculation_method: sum
 column: COMPILATION_TIME

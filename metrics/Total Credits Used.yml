@@ -1,6 +1,6 @@
-unique_name: m_CREDITS_USED_sum
+unique_name: Total Credits Used
 object_type: metric
-label: Sum Credits Used
+label: Total Credits Used
 description: >-
   Total number of credits used for the warehouse in the hour. This is a sum of
   CREDITS_USED_COMPUTE and CREDITS_USED_CLOUD_SERVICES. This value does not take

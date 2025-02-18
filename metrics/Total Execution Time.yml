@@ -1,6 +1,6 @@
-unique_name: m_EXECUTION_TIME_sum
+unique_name: Total Execution Time
 object_type: metric
-label: Sum Execution Time
+label: Total Execution Time
 description: Execution time (in milliseconds)
 calculation_method: sum
 column: EXECUTION_TIME
