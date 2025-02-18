@@ -11,7 +11,7 @@ hierarchies:
           - unique_name: First Name
             label: First Name
             contains_unique_names: false
-            dataset: USERS
+            dataset: users
             folder: User Attributes
             is_unique_key: false
             key_columns:
@@ -21,7 +21,7 @@ hierarchies:
           - unique_name: Last Name
             label: Last Name
             contains_unique_names: false
-            dataset: USERS
+            dataset: users
             folder: User Attributes
             is_unique_key: false
             key_columns:
@@ -30,7 +30,7 @@ hierarchies:
           - unique_name: Email
             label: Email
             contains_unique_names: false
-            dataset: USERS
+            dataset: users
             folder: User Attributes
             is_unique_key: false
             key_columns:
@@ -39,7 +39,7 @@ hierarchies:
           - unique_name: Login Name
             label: Login Name
             contains_unique_names: false
-            dataset: USERS
+            dataset: users
             folder: User Attributes
             is_unique_key: false
             key_columns:
@@ -48,7 +48,7 @@ hierarchies:
           - unique_name: Created on
             label: Created on
             contains_unique_names: false
-            dataset: USERS
+            dataset: users
             folder: User Attributes
             is_unique_key: false
             key_columns:
@@ -57,7 +57,7 @@ hierarchies:
           - unique_name: Last Success Login
             label: Last Success Login
             contains_unique_names: false
-            dataset: USERS
+            dataset: users
             folder: User Attributes
             is_unique_key: false
             key_columns:
@@ -67,7 +67,7 @@ level_attributes:
   - unique_name: User Name
     label: User Name
     contains_unique_names: false
-    dataset: USERS
+    dataset: users
     is_unique_key: false
     key_columns:
       - NAME

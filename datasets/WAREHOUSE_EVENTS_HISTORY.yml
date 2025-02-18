@@ -1,6 +1,6 @@
-unique_name: WAREHOUSE_EVENTS_HISTORY
+unique_name: warehouse_events_history
 object_type: dataset
-label: WAREHOUSE_EVENTS_HISTORY
+label: warehouse_events_history
 columns:
   - name: TIMESTAMP
     data_type: datetime

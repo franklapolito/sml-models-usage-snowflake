@@ -32,7 +32,7 @@ metrics:
 relationships:
   - unique_name: QUERY_HISTORY_Date_Dimension
     from:
-      dataset: QUERY_HISTORY
+      dataset: query_history
       join_columns:
         - START_DATE
     to:
@@ -40,7 +40,7 @@ relationships:
       level: full_date
   - unique_name: WAREHOUSE_METERING_HISTORY_Date_Dimension
     from:
-      dataset: WAREHOUSE_METERING_HISTORY
+      dataset: warehouse_metering_history
       join_columns:
         - START_DATE
     to:
@@ -48,7 +48,7 @@ relationships:
       level: full_date
   - unique_name: QUERY_HISTORY_WAREHOUSE_ID_to_Warehouse_Warehouse Level
     from:
-      dataset: QUERY_HISTORY
+      dataset: query_history
       join_columns:
         - WAREHOUSE_ID
     to:
@@ -56,7 +56,7 @@ relationships:
       level: Warehouse Level
   - unique_name: WAREHOUSE_METERING_HISTORY_WAREHOUSE_ID_to_Warehouse_Warehouse Level
     from:
-      dataset: WAREHOUSE_METERING_HISTORY
+      dataset: warehouse_metering_history
       join_columns:
         - WAREHOUSE_ID
     to:
@@ -64,7 +64,7 @@ relationships:
       level: Warehouse Level
   - unique_name: QUERY_HISTORY_USER_NAME_to_User_User Name
     from:
-      dataset: QUERY_HISTORY
+      dataset: query_history
       join_columns:
         - USER_NAME
     to:
@@ -72,7 +72,7 @@ relationships:
       level: User Name
   - unique_name: QUERY_HISTORY_DATABASE_ID_to_Data_Database
     from:
-      dataset: QUERY_HISTORY
+      dataset: query_history
       join_columns:
         - DATABASE_ID
     to:

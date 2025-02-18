@@ -1,7 +1,7 @@
-unique_name: USERS
+unique_name: users
 object_type: dataset
-label: USERS
-sql: select NAME, FIRST_NAME, LAST_NAME, EMAIL, CREATED_ON, LOGIN_NAME, LAST_SUCCESS_LOGIN, TYPE from SNOWFLAKE.ACCOUNT_USAGE.USERS
+label: users
+sql: select NAME, FIRST_NAME, LAST_NAME, EMAIL, CREATED_ON, LOGIN_NAME, LAST_SUCCESS_LOGIN, TYPE from SNOWFLAKE.ACCOUNT_USAGE.users
 connection_id: Connection - Snowflake Usage
 columns:
   - name: NAME

@@ -4,4 +4,4 @@ label: Avg Bytes Scanned
 description: Number of bytes scanned by this statement.
 calculation_method: average
 column: BYTES_SCANNED
-dataset: QUERY_HISTORY
+dataset: query_history

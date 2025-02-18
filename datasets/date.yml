@@ -1,15 +1,15 @@
-unique_name: Degenerate Date
+unique_name: date
 object_type: dataset
-label: Degenerate Date
+label: date
 connection_id: Connection - Snowflake Usage
 sql: "SELECT DISTINCT cast(START_TIME AS date) use_date, year(START_TIME) AS \"Year\"\
-  , monthname(START_TIME) AS \"Month\"\nFROM SNOWFLAKE.ACCOUNT_USAGE.WAREHOUSE_METERING_HISTORY\n\
+  , monthname(START_TIME) AS \"Month\"\nFROM SNOWFLAKE.ACCOUNT_USAGE.warehouse_metering_history\n\
   UNION \nSELECT DISTINCT CAST(END_TIME AS date) use_date, year(END_TIME) AS \"Year\"\
-  , monthname(END_TIME) AS \"Month\"\nFROM SNOWFLAKE.ACCOUNT_USAGE.WAREHOUSE_METERING_HISTORY\n\
+  , monthname(END_TIME) AS \"Month\"\nFROM SNOWFLAKE.ACCOUNT_USAGE.warehouse_metering_history\n\
   UNION\nSELECT DISTINCT CAST(START_TIME AS date) use_date, year(START_TIME) AS \"\
-  Year\", monthname(START_TIME) AS \"Month\"\nFROM SNOWFLAKE.ACCOUNT_USAGE.QUERY_HISTORY\n\
+  Year\", monthname(START_TIME) AS \"Month\"\nFROM SNOWFLAKE.ACCOUNT_USAGE.query_history\n\
   UNION \nSELECT DISTINCT CAST(END_TIME AS date) use_date, year(END_TIME) AS \"Year\"\
-  , monthname(END_TIME) AS \"Month\"\nFROM SNOWFLAKE.ACCOUNT_USAGE.QUERY_HISTORY\n"
+  , monthname(END_TIME) AS \"Month\"\nFROM SNOWFLAKE.ACCOUNT_USAGE.query_history\n"
 
 columns:
   - name: Month
