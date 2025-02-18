@@ -27,6 +27,8 @@ metrics:
     folder: Measures - Averages
   - unique_name: m_TOTAL_ELAPSED_TIME_sum
     folder: Measures - Totals
+  - unique_name: Total Cost
+    folder: Measures - Totals
 relationships:
   - unique_name: QUERY_HISTORY_Date_Dimension
     from:

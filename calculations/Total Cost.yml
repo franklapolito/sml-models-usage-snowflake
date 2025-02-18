@@ -1,0 +1,6 @@
+unique_name: Total Cost
+object_type: metric_calc
+label: Total Cost
+expression: '[Measures].[m_CREDITS_USED_sum]*2.00'
+format: "$#,##0.00"
+is_hidden: false
