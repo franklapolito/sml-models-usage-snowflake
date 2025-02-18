@@ -36,7 +36,7 @@ relationships:
       join_columns:
         - START_DATE
     to:
-      dimension: Date Dimension
+      dimension: Date
       level: full_date
   - unique_name: WAREHOUSE_METERING_HISTORY_Date_Dimension
     from:
@@ -44,7 +44,7 @@ relationships:
       join_columns:
         - START_DATE
     to:
-      dimension: Date Dimension
+      dimension: Date
       level: full_date
   - unique_name: QUERY_HISTORY_WAREHOUSE_ID_to_Warehouse_Warehouse Level
     from:
