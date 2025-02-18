@@ -62,7 +62,7 @@ level_attributes:
     description: Name of the table.
     contains_unique_names: false
     dataset: tables
-    folder: Data  Organization
+    folder: Data Organization
     is_unique_key: true
     key_columns:
       - TABLE_ID
@@ -73,7 +73,7 @@ level_attributes:
     description: Schema that the table belongs to.
     contains_unique_names: false
     dataset: tables
-    folder: Data  Organization
+    folder: Data Organization
     is_unique_key: false
     key_columns:
       - TABLE_SCHEMA_ID
@@ -84,7 +84,7 @@ level_attributes:
     description: Database that the table belongs to.
     contains_unique_names: false
     dataset: tables
-    folder: Data  Organization
+    folder: Data Organization
     is_unique_key: false
     key_columns:
       - TABLE_CATALOG_ID
