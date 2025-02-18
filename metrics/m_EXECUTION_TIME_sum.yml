@@ -4,4 +4,4 @@ label: Sum Execution Time
 description: Execution time (in milliseconds)
 calculation_method: sum
 column: EXECUTION_TIME
-dataset: QUERY_HISTORY
+dataset: query_history

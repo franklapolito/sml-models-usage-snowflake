@@ -11,7 +11,7 @@ level_attributes:
   - unique_name: Warehouse Level
     label: Warehouse Level
     contains_unique_names: false
-    dataset: WAREHOUSE_EVENTS_HISTORY
+    dataset: warehouse_events_history
     is_unique_key: false
     key_columns:
       - WAREHOUSE_ID

@@ -8,5 +8,5 @@ description: >-
   than the credits that are billed.
 calculation_method: sum
 column: CREDITS_USED
-dataset: WAREHOUSE_METERING_HISTORY
+dataset: warehouse_metering_history
 unrelated_dimensions_handling: empty

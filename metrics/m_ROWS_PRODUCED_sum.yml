@@ -9,4 +9,4 @@ description: >-
   RESULTS, or ROWS_DELETED columns instead.
 calculation_method: sum
 column: ROWS_PRODUCED
-dataset: QUERY_HISTORY
+dataset: query_history

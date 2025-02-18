@@ -1,6 +1,6 @@
-unique_name: WAREHOUSE_METERING_HISTORY
+unique_name: warehouse_metering_history
 object_type: dataset
-label: WAREHOUSE_METERING_HISTORY
+label: warehouse_metering_history
 connection_id: Connection - Snowflake Usage
 table: WAREHOUSE_METERING_HISTORY
 

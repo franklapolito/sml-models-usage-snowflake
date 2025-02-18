@@ -4,4 +4,4 @@ label: Avg Execution Time
 description: Execution time (in milliseconds)
 calculation_method: average
 column: EXECUTION_TIME
-dataset: QUERY_HISTORY
+dataset: query_history

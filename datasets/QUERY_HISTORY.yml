@@ -1,6 +1,6 @@
-unique_name: QUERY_HISTORY
+unique_name: query_history
 object_type: dataset
-label: QUERY_HISTORY
+label: query_history
 columns:
   - name: ATSCALE_QUERY_FLAG
     data_type: decimal(1,0)

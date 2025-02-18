@@ -14,7 +14,7 @@ hierarchies:
             label: Row Count
             description: Number of rows in the table.
             contains_unique_names: false
-            dataset: TABLES
+            dataset: tables
             folder: Data  Organization
             is_unique_key: false
             key_columns:
@@ -25,7 +25,7 @@ hierarchies:
             label: Bytes
             description: Number of bytes accessed by a scan of the table.
             contains_unique_names: false
-            dataset: TABLES
+            dataset: tables
             folder: Data  Organization
             is_unique_key: false
             key_columns:
@@ -38,7 +38,7 @@ hierarchies:
               Indicates the table type. Valid values are BASE TABLE, TEMPORARY
               TABLE, EXTERNAL TABLE, EVENT TABLE, VIEW, or MATERIALIZED VIEW.
             contains_unique_names: false
-            dataset: TABLES
+            dataset: tables
             folder: Data  Organization
             is_unique_key: false
             key_columns:
@@ -49,7 +49,7 @@ hierarchies:
             label: Table Owner
             description: Name of the role that owns the table.
             contains_unique_names: false
-            dataset: TABLES
+            dataset: tables
             folder: Data  Organization
             is_unique_key: false
             key_columns:
@@ -61,7 +61,7 @@ level_attributes:
     label: Table
     description: Name of the table.
     contains_unique_names: false
-    dataset: TABLES
+    dataset: tables
     folder: Data  Organization
     is_unique_key: true
     key_columns:
@@ -72,7 +72,7 @@ level_attributes:
     label: Schema
     description: Schema that the table belongs to.
     contains_unique_names: false
-    dataset: TABLES
+    dataset: tables
     folder: Data  Organization
     is_unique_key: false
     key_columns:
@@ -83,7 +83,7 @@ level_attributes:
     label: Database
     description: Database that the table belongs to.
     contains_unique_names: false
-    dataset: TABLES
+    dataset: tables
     folder: Data  Organization
     is_unique_key: false
     key_columns:

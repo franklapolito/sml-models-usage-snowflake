@@ -1,6 +1,6 @@
-unique_name: TABLES
+unique_name: tables
 object_type: dataset
-label: TABLES
+label: tables
 columns:
   - name: TABLE_ID
     data_type: decimal(38,0)

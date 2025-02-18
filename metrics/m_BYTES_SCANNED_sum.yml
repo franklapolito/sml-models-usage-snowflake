@@ -2,5 +2,5 @@ unique_name: m_BYTES_SCANNED_sum
 object_type: metric
 label: Sum Bytes Scanned
 calculation_method: sum
-dataset: QUERY_HISTORY
+dataset: query_history
 column: BYTES_SCANNED

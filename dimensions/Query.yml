@@ -15,7 +15,7 @@ hierarchies:
             description: >-
               Text of the SQL statement. Limit is 100K characters. SQL
               statements containing more than 100K characters will be truncated.
-            dataset: QUERY_HISTORY
+            dataset: query_history
             key_columns:
               - QUERY_TEXT
             name_column: QUERY_TEXT
@@ -24,7 +24,7 @@ hierarchies:
             label: AtScale Query Flag
             description: If the query was sent from AtScale.
             contains_unique_names: false
-            dataset: QUERY_HISTORY
+            dataset: query_history
             is_unique_key: false
             key_columns:
               - ATSCALE_QUERY_FLAG
@@ -36,7 +36,7 @@ hierarchies:
               Query tag set for this statement through the QUERY_TAG session
               parameter.
             contains_unique_names: false
-            dataset: QUERY_HISTORY
+            dataset: query_history
             is_unique_key: false
             key_columns:
               - QUERY_TAG
@@ -45,7 +45,7 @@ is_degenerate: true
 level_attributes:
   - unique_name: Query ID
     label: Query ID
-    dataset: QUERY_HISTORY
+    dataset: query_history
     key_columns:
       - QUERY_ID
     name_column: QUERY_ID
@@ -53,7 +53,7 @@ level_attributes:
     label: Query Type
     description: DML, query, etc. If the query failed, then the query type may be UNKNOWN.
     contains_unique_names: false
-    dataset: QUERY_HISTORY
+    dataset: query_history
     is_unique_key: false
     key_columns:
       - QUERY_TYPE
