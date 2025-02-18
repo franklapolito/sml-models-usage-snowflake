@@ -46,22 +46,22 @@ relationships:
     to:
       dimension: Date
       level: full_date
-  - unique_name: QUERY_HISTORY_WAREHOUSE_ID_to_Warehouse_Warehouse Level
+  - unique_name: QUERY_HISTORY_WAREHOUSE_ID_to_Warehouse_Warehouse
     from:
       dataset: query_history
       join_columns:
         - WAREHOUSE_ID
     to:
       dimension: Warehouse
-      level: Warehouse Level
-  - unique_name: WAREHOUSE_METERING_HISTORY_WAREHOUSE_ID_to_Warehouse_Warehouse Level
+      level: Warehouse
+  - unique_name: WAREHOUSE_METERING_HISTORY_WAREHOUSE_ID_to_Warehouse_Warehouse
     from:
       dataset: warehouse_metering_history
       join_columns:
         - WAREHOUSE_ID
     to:
       dimension: Warehouse
-      level: Warehouse Level
+      level: Warehouse
   - unique_name: QUERY_HISTORY_USER_NAME_to_User_User Name
     from:
       dataset: query_history
