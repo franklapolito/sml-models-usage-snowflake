@@ -1,0 +1,24 @@
+unique_name: users
+object_type: dataset
+label: users
+sql: select NAME, FIRST_NAME, LAST_NAME, EMAIL, CREATED_ON, LOGIN_NAME, LAST_SUCCESS_LOGIN, TYPE from SNOWFLAKE.ACCOUNT_USAGE.users
+connection_id: Connection - Snowflake Usage
+columns:
+  - name: NAME
+    data_type: string
+  - name: CREATED_ON
+    data_type: datetime
+  - name: LOGIN_NAME
+    data_type: string
+  - name: DISPLAY_NAME
+    data_type: string
+  - name: FIRST_NAME
+    data_type: string
+  - name: LAST_NAME
+    data_type: string
+  - name: EMAIL
+    data_type: string
+  - name: TYPE
+    data_type: string  
+  - name: LAST_SUCCESS_LOGIN
+    data_type: datetime
