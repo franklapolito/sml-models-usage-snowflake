@@ -1,4 +1,4 @@
-unique_name: Snowflake Usage Model
+unique_name: snowflake_usage_model
 object_type: model
 label: Snowflake Usage Model
 dimensions:
