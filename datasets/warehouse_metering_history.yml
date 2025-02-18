@@ -3,7 +3,6 @@ object_type: dataset
 label: warehouse_metering_history
 connection_id: Connection - Snowflake Usage
 table: WAREHOUSE_METERING_HISTORY
-
 columns:
   - name: CREDITS_USED
     data_type: "decimal(38,9)"

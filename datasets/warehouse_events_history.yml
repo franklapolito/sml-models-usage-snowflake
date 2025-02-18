@@ -1,6 +1,8 @@
 unique_name: warehouse_events_history
 object_type: dataset
 label: warehouse_events_history
+connection_id: Connection - Snowflake Usage
+table: WAREHOUSE_EVENTS_HISTORY
 columns:
   - name: TIMESTAMP
     data_type: datetime
@@ -26,5 +28,3 @@ columns:
     data_type: string
   - name: CLUSTER_COUNT
     data_type: string
-connection_id: Connection - Snowflake Usage
-table: WAREHOUSE_EVENTS_HISTORY

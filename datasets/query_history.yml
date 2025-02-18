@@ -1,6 +1,8 @@
 unique_name: query_history
 object_type: dataset
 label: query_history
+connection_id: Connection - Snowflake Usage
+table: QUERY_HISTORY
 columns:
   - name: ATSCALE_QUERY_FLAG
     data_type: decimal(1,0)
@@ -158,5 +160,3 @@ columns:
     data_type: string
   - name: WAREHOUSE_TYPE
     data_type: string
-connection_id: Connection - Snowflake Usage
-table: QUERY_HISTORY

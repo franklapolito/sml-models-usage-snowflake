@@ -1,6 +1,8 @@
 unique_name: tables
 object_type: dataset
 label: tables
+connection_id: Connection - Snowflake Usage
+table: TABLES
 columns:
   - name: TABLE_ID
     data_type: decimal(38,0)
@@ -66,5 +68,3 @@ columns:
     data_type: string
   - name: INSTANCE_ID
     data_type: decimal(38,0)
-connection_id: Connection - Snowflake Usage
-table: TABLES
