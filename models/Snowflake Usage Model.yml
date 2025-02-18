@@ -37,7 +37,7 @@ relationships:
         - START_DATE
     to:
       dimension: Date
-      level: date
+      level: Date
   - unique_name: WAREHOUSE_METERING_HISTORY_Date_Dimension
     from:
       dataset: warehouse_metering_history
@@ -45,7 +45,7 @@ relationships:
         - START_DATE
     to:
       dimension: Date
-      level: date
+      level: Date
   - unique_name: QUERY_HISTORY_WAREHOUSE_ID_to_Warehouse_Warehouse
     from:
       dataset: query_history

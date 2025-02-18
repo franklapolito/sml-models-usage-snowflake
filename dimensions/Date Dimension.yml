@@ -7,18 +7,18 @@ hierarchies:
     filter_empty: 'yes'
     folder: Dates
     levels:
-      - unique_name: year
-      - unique_name: month
-      - unique_name: date
+      - unique_name: Year
+      - unique_name: Month
+      - unique_name: Date
 level_attributes:
-  - unique_name: date
+  - unique_name: Date
     label: Date
     dataset: dates
     key_columns:
       - USE_DATE
     name_column: USE_DATE
     time_unit: day
-  - unique_name: month
+  - unique_name: Month
     label: Month
     dataset: dates
     key_columns:
@@ -27,7 +27,7 @@ level_attributes:
     name_column: Month
     sort_column: USE_DATE
     time_unit: month
-  - unique_name: year
+  - unique_name: Year
     label: Year
     dataset: dates
     key_columns:
