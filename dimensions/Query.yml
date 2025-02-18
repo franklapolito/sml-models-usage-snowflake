@@ -20,8 +20,8 @@ hierarchies:
               - QUERY_TEXT
             name_column: QUERY_TEXT
             sort_column: QUERY_TEXT
-          - unique_name: AtScale Query Flag
-            label: AtScale Query Flag
+          - unique_name: Is AtScale Query
+            label: Is AtScale Query
             description: If the query was sent from AtScale.
             contains_unique_names: false
             dataset: query_history
