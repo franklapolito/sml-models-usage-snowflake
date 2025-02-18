@@ -2,8 +2,8 @@ unique_name: Data Organization
 object_type: dimension
 label: Data Organization
 hierarchies:
-  - unique_name: Data Organization
-    label: Data Organization
+  - unique_name: Data Organization Hierarchy
+    label: Data Organization Hierarchy
     folder: Data Organization
     levels:
       - unique_name: Database
@@ -15,7 +15,6 @@ hierarchies:
             description: Number of rows in the table.
             contains_unique_names: false
             dataset: tables
-            folder: Data Organization
             is_unique_key: false
             key_columns:
               - ROW_COUNT
@@ -26,7 +25,6 @@ hierarchies:
             description: Number of bytes accessed by a scan of the table.
             contains_unique_names: false
             dataset: tables
-            folder: Data Organization
             is_unique_key: false
             key_columns:
               - BYTES
@@ -39,7 +37,6 @@ hierarchies:
               TABLE, EXTERNAL TABLE, EVENT TABLE, VIEW, or MATERIALIZED VIEW.
             contains_unique_names: false
             dataset: tables
-            folder: Data Organization
             is_unique_key: false
             key_columns:
               - TABLE_TYPE
@@ -50,7 +47,6 @@ hierarchies:
             description: Name of the role that owns the table.
             contains_unique_names: false
             dataset: tables
-            folder: Data Organization
             is_unique_key: false
             key_columns:
               - TABLE_OWNER
@@ -62,7 +58,6 @@ level_attributes:
     description: Name of the table.
     contains_unique_names: false
     dataset: tables
-    folder: Data Organization
     is_unique_key: true
     key_columns:
       - TABLE_ID
@@ -73,8 +68,7 @@ level_attributes:
     description: Schema that the table belongs to.
     contains_unique_names: false
     dataset: tables
-    folder: Data Organization
-    is_unique_key: false
+    is_unique_key: true
     key_columns:
       - TABLE_SCHEMA_ID
     name_column: TABLE_SCHEMA
@@ -84,8 +78,7 @@ level_attributes:
     description: Database that the table belongs to.
     contains_unique_names: false
     dataset: tables
-    folder: Data Organization
-    is_unique_key: false
+    is_unique_key: true
     key_columns:
       - TABLE_CATALOG_ID
     name_column: TABLE_CATALOG
