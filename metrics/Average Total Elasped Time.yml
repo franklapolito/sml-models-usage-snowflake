@@ -1,6 +1,6 @@
 unique_name: Average Total Elapsed Time
 object_type: metric
-label: Avg Total Elapsed Time
+label: Average Total Elapsed Time
 description: Elapsed time (in milliseconds).
 calculation_method: average
 column: TOTAL_ELAPSED_TIME

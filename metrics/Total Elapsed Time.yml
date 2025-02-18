@@ -1,6 +1,6 @@
 unique_name: Total Elapsed Time
 object_type: metric
-label: Sum Total Elapsed Time
+label: Total Elapsed Time
 description: Elapsed time (in milliseconds).
 calculation_method: sum
 column: TOTAL_ELAPSED_TIME
