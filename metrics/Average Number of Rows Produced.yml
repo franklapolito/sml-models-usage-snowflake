@@ -1,12 +1,12 @@
-unique_name: m_ROWS_PRODUCED_sum
+unique_name: Average Number of Rows Produced
 object_type: metric
-label: Sum Rows Produced
+label: Average Number of Rows Produced
 description: >-
   The number of rows produced by this statement. The ROWS_PRODUCED column will
   be deprecated in a future release. The value in the ROWS_PRODUCED column
   doesn’t always reflect the logical number of rows affected by a query.
   Snowflake recommends using the ROWS_INSERTED, ROWS_UPDATED, ROWS_WRITTEN_TO
   RESULTS, or ROWS_DELETED columns instead.
-calculation_method: sum
+calculation_method: average
 column: ROWS_PRODUCED
 dataset: query_history

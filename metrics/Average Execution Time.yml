@@ -1,6 +1,6 @@
-unique_name: m_EXECUTION_TIME_avg
+unique_name: Average Execution Time
 object_type: metric
-label: Avg Execution Time
+label: Average Execution Time
 description: Execution time (in milliseconds)
 calculation_method: average
 column: EXECUTION_TIME
