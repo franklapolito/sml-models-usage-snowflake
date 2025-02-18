@@ -2,14 +2,14 @@ unique_name: Warehouse
 object_type: dimension
 label: Warehouse
 hierarchies:
-  - unique_name: Warehouse Hierarchy
-    label: Warehouse Hierarchy
+  - unique_name: Warehouse
+    label: Warehouse
     folder: Resources
     levels:
-      - unique_name: Warehouse Level
+      - unique_name: Warehouse
 level_attributes:
-  - unique_name: Warehouse Level
-    label: Warehouse Level
+  - unique_name: Warehouse
+    label: Warehouse
     contains_unique_names: false
     dataset: warehouse_events_history
     is_unique_key: false
