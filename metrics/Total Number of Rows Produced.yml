@@ -1,6 +1,6 @@
 unique_name: Total Number of Rows Produced
 object_type: metric
-label: Total Nunber of Rows Produced
+label: Total Number of Rows Produced
 description: >-
   The number of rows produced by this statement. The ROWS_PRODUCED column will
   be deprecated in a future release. The value in the ROWS_PRODUCED column

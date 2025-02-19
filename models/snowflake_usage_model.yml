@@ -70,11 +70,11 @@ relationships:
     to:
       dimension: User
       level: User Name
-  - unique_name: QUERY_HISTORY_DATABASE_ID_to_Data_Database
+  - unique_name: query_history_SCHEMA_ID_to_Data Organization_Schema
     from:
       dataset: query_history
       join_columns:
-        - DATABASE_ID
+        - SCHEMA_ID
     to:
       dimension: Data Organization
-      level: Database
+      level: Schema
