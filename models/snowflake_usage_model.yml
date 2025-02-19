@@ -6,29 +6,29 @@ dimensions:
 include_default_drillthrough: true
 metrics:
   - unique_name: Average Bytes Scanned
-    folder: Measures - Averages
+    folder: Metrics - Averages
   - unique_name: Total Bytes Scanned
-    folder: Measures - Totals
+    folder: Metrics - Totals
   - unique_name: Average Compilation Time
-    folder: Measures - Averages
+    folder: Metrics - Averages
   - unique_name: Total Credits Used
-    folder: Measures - Totals
+    folder: Metrics - Totals
   - unique_name: Average Execution Time
-    folder: Measures - Averages
+    folder: Metrics - Averages
   - unique_name: Total Execution Time
-    folder: Measures - Totals
+    folder: Metrics - Totals
   - unique_name: Number of Distinct Queries
-    folder: Measures - Counts
+    folder: Metrics - Counts
   - unique_name: Average Number of Rows Produced
-    folder: Measures - Averages
+    folder: Metrics - Averages
   - unique_name: Total Number of Rows Produced
-    folder: Measures - Totals
+    folder: Metrics - Totals
   - unique_name: Average Total Elapsed Time
-    folder: Measures - Averages
+    folder: Metrics - Averages
   - unique_name: Total Elapsed Time
-    folder: Measures - Totals
+    folder: Metrics - Totals
   - unique_name: Total Cost
-    folder: Measures - Totals
+    folder: Metrics - Totals
 relationships:
   - unique_name: QUERY_HISTORY_Date_Dimension
     from:
