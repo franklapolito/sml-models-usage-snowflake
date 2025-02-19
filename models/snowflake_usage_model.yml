@@ -6,29 +6,29 @@ dimensions:
 include_default_drillthrough: true
 metrics:
   - unique_name: Average Bytes Scanned
-    folder: Measures - Averages
+    folder: Metrics - Averages
   - unique_name: Total Bytes Scanned
-    folder: Measures - Totals
+    folder: Metrics - Totals
   - unique_name: Average Compilation Time
-    folder: Measures - Averages
+    folder: Metrics - Averages
   - unique_name: Total Credits Used
-    folder: Measures - Totals
+    folder: Metrics - Totals
   - unique_name: Average Execution Time
-    folder: Measures - Averages
+    folder: Metrics - Averages
   - unique_name: Total Execution Time
-    folder: Measures - Totals
-  - unique_name: Number of Distinct Queries
-    folder: Measures - Counts
+    folder: Metrics - Totals
+  - unique_name: Number of Queries
+    folder: Metrics - Counts
   - unique_name: Average Number of Rows Produced
-    folder: Measures - Averages
+    folder: Metrics - Averages
   - unique_name: Total Number of Rows Produced
-    folder: Measures - Totals
+    folder: Metrics - Totals
   - unique_name: Average Total Elapsed Time
-    folder: Measures - Averages
+    folder: Metrics - Averages
   - unique_name: Total Elapsed Time
-    folder: Measures - Totals
+    folder: Metrics - Totals
   - unique_name: Total Cost
-    folder: Measures - Totals
+    folder: Metrics - Totals
 relationships:
   - unique_name: QUERY_HISTORY_Date_Dimension
     from:
@@ -70,11 +70,11 @@ relationships:
     to:
       dimension: User
       level: User Name
-  - unique_name: QUERY_HISTORY_DATABASE_ID_to_Data_Database
+  - unique_name: query_history_SCHEMA_ID_to_Data Organization_Schema
     from:
       dataset: query_history
       join_columns:
-        - DATABASE_ID
+        - SCHEMA_ID
     to:
       dimension: Data Organization
-      level: Database
+      level: Schema
