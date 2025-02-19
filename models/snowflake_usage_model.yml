@@ -17,7 +17,7 @@ metrics:
     folder: Metrics - Averages
   - unique_name: Total Execution Time
     folder: Metrics - Totals
-  - unique_name: Number of Distinct Queries
+  - unique_name: Number of Queries
     folder: Metrics - Counts
   - unique_name: Average Number of Rows Produced
     folder: Metrics - Averages

@@ -1,0 +1,6 @@
+unique_name: Number of Queries
+object_type: metric
+label: Number of Queries
+calculation_method: estimated count distinct
+column: QUERY_ID
+dataset: query_history
