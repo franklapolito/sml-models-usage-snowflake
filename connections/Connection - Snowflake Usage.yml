@@ -1,6 +1,6 @@
 unique_name: Connection - Snowflake Usage
 label: Connection - Snowflake Usage
 object_type: connection
-as_connection: Snowflake Usage
+as_connection: Snowflake Partner
 database: SNOWFLAKE
 schema: ACCOUNT_USAGE
