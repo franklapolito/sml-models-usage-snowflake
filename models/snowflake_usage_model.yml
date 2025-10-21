@@ -3,6 +3,8 @@ object_type: model
 label: Snowflake Usage Model
 dimensions:
   - Query
+  - AtScale Query ID
+  - Atscale User Name
 include_default_drillthrough: true
 metrics:
   - unique_name: Average Bytes Scanned

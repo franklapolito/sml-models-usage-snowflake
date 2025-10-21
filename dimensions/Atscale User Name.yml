@@ -1,0 +1,19 @@
+unique_name: Atscale User Name
+object_type: dimension
+label: Atscale User Name
+hierarchies:
+  - unique_name: Atscale User Name
+    label: Atscale User Name
+    folder: Queries
+    levels:
+      - unique_name: Atscale User Name
+is_degenerate: true
+level_attributes:
+  - unique_name: Atscale User Name
+    label: Atscale User Name
+    contains_unique_names: false
+    dataset: query_history
+    key_columns:
+      - Atscale_Username
+    name_column: Atscale_Username
+type: standard
